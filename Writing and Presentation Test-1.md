@@ -102,20 +102,16 @@ Menghapus :
 
 - <b>Membuat Repository pada GitHub</b>
 
-```
-
-
-```
-
 - <b>Melakukan Commit pada Git</b>
 
 ```
-
+git add .
+git commit -m ".."
 ```
 - <b>Mempublish Project kedalam GitHub</b>
 
 ```
-
+git remote add origin https://github.com/vaniaskirana/vaniaskirana.git
 ```
 - <b>Melakukan Clonning pada Git</b>
 ```
@@ -438,7 +434,6 @@ Program :
     }
 
 
-
    ```
 
     <br><b>2. Looping</b><hr>Looping sendiri memiliki arti Perulangan, jadi ia akan selalu mengulang sebuah output sampai dengan stop statement.<br>
@@ -446,31 +441,8 @@ Program :
     Biasanya kita akan menggunakan <b>for, for..in, for..of, while, dan do...while.</b>
 
     ```
+    for (let bilangan = 1; bilangan <= 100; bilangan++) {
+      console.log(bilangan);
+    }
     ```
 
-### **7. JavaScript Dasar - Scope dan Function**
-
-  <br><b>1. Scope</b><hr> Scope sendiri memiliki tugas untuk membatasi pengaksesan pada suatu variable, Scope terdiri dari 2 jenis yaitu :<br>
-    
-   - Global Scope : Lingkup global memiliki artian "everywhere" dimana variable yang memiliki ciri global scope ini dapat diakses dalam blok atau fungsi manapun(sifatnya tidak terbatas).
-    
-   ```
-
-   ```
-   - Local Scope : Berbeda dengan global scope, Local scope ini hanya dapat diakses pada 1 blok nya itu sendiri(sangat terbatas).
-   ```
-
-   ```
-
-   <br><b>2. Function</b><hr>Fungsi merupakan sebuah blok kode yang dapat membungkus dan menjalankan perintah hanya dengan memanggil fungsinya itu sendiri.<br>
-
-
-   ```
-    var testFungsi = () => {
-
-        console.log("Skilvul - Kampus Merdeka");
-        return "Vania Sasikirana [Kelompok 11]";
-    }
-
-    console.log(testFungsi());
-   ```
