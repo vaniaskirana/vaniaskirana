@@ -1,0 +1,18 @@
+h6 {
+    color:blue;
+}
+
+p {
+    color: pink;
+    background-color: black;
+    /* display : inline-block; */
+}
+
+#flex{
+    width: 120px;
+    height: 100px;
+    display: inline-block;
+
+    
+}
+
