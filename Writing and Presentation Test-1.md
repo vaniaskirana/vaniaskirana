@@ -115,7 +115,11 @@ git remote add origin https://github.com/vaniaskirana/vaniaskirana.git
 ```
 - <b>Melakukan Clonning pada Git</b>
 ```
+git clone HTTPS_repository kita : 
 
+git clone https://github.com/vaniaskirana/TPA-3-Fetch.git
+
+selesai
 ```
 
 ### **3. HTML** 
