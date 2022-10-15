@@ -13,17 +13,24 @@
 - <b>File System Structure</b> merupakan sebuah struktur yang dapat digunakan untuk mengendalikan seluruh akses terhadap data yang berada di sebuah disk. <b>File Sistem</b> ini berfungsi atas penyimpanan segala data maupun program yang di kendalikan oleh Sistem Operasi dan juga Sistem Komputer.
  
  - Cara Melihat <b>Current working directory</b> pada CLI.
+ <img src="img/pwd.jpeg">
+
 ``` 
    1. Pertama masuk kedalam CLI Bash kemudian jika sudah berhasil maka akan muncul tanda Dollar atau "$".
    2. Ketikkan "pwd" tanpa tanda kutip. PWD disini memiliki arti Print Working Directory, dimana ia akan menampilkan output posisi direktori kita yang aktif saat ini.
+
 ```
- - Cara Melihat <b>Isi Direktori</b>
+ - Cara Melihat <b>Isi Direktori</b>.
+<img src="img/ls.jpeg">
+
 ``` 
    1. Pertama masuk kedalam CLI Bash kemudian jika sudah berhasil maka akan muncul tanda Dollar atau "$".
 
    2. Ketikkan "ls" tanpa tanda kutip. ls ini memiliki arti list dimana perintah ini akan menampilkan output berupa isi yang terdapat pada direktori yang sedang aktif saat itu juga.
 ```
-- Cara <b>Berpindah Direktori</b>
+- Cara <b>Berpindah Direktori</b><br>
+ <img src="img/cd.jpeg">
+
 ``` 
    1. Pertama masuk kedalam CLI Bash kemudian jika sudah berhasil maka akan muncul tanda Dollar atau "$".
 
@@ -31,6 +38,8 @@
 ```
 
 - Cara <b>Melihat isi File</b>
+ <img src="img/cat.jpeg">
+
 ``` 
    1. Pertama masuk kedalam CLI Bash kemudian jika sudah berhasil maka akan muncul tanda Dollar atau "$".
 
@@ -40,6 +49,10 @@
 ```
 
 - Cara <b>Membuat File dan Direktori</b>
+ <img src="img/mkdir.jpeg">
+ <img src="img/touch.jpeg">
+
+
 ``` 
    1. Pertama masuk kedalam CLI Bash kemudian jika sudah berhasil maka akan muncul tanda Dollar atau "$".
 
@@ -52,6 +65,10 @@
    - Ketikkan "touch namafile.txt". Perintah touch dapat digunakan untuk membuat sebuah file.
 ```
 - Cara <b>Menyalin File dan Direktori</b>
+ <img src="img/CPtext.jpeg">
+ <img src="img/CPfolder.jpeg">
+
+
 ``` 
    1. Pertama masuk kedalam CLI Bash kemudian jika sudah berhasil maka akan muncul tanda Dollar atau "$".
 
@@ -74,6 +91,7 @@
 
 
 - Cara <b>Memindahkan dan Me-Rename File dan Direktori</b>
+(Record videonya terhapus, jadi tidak bisa ss hasil Demo live nya kak maaf) Tapi saya alhamdulillah bisa dan lancar.
 ``` 
    1. Memindahkan dan Merename
 
@@ -82,6 +100,10 @@
 ```
 
 - Cara <b>Menghapus File dan Direktori</b>
+ <img src="img/removeFile.jpeg">
+ <img src="img/removeFolder.jpeg">
+
+
 ``` 
 Menghapus :
    - Ketikkan "rm direktoriTarget". Perintah rm dapat digunakan untuk menghapus direktori.
@@ -100,26 +122,40 @@ Menghapus :
 - <b>Alur Kerja dari Git dan GitHub</b> :
     Pada dasarnya Git dan GitHub ini memiliki relasi atau hubungan, dimana saat kita melakukan berbagaimacam perintah command pada Git melalui perangkat lunak Visual Studio Code maka kita dapat langsung menyimpan kedalam repository pada GitHub nya itu sendiri.
 
-- <b>Membuat Repository pada GitHub</b>
+- <b>Membuat Repository pada GitHub</b><br>
+<img src="img/createRepo1.jpeg">
+<img src="img/createRepo2.jpeg">
+<img src="img/createRepo3.jpeg">
 
-- <b>Melakukan Commit pada Git</b>
+- <b>Melakukan Commit pada Git</b><br>
+<img src="img/gitCommit.jpeg">
 
 ```
 git add .
 git commit -m ".."
 ```
-- <b>Mempublish Project kedalam GitHub</b>
+- <b>Mempublish Project kedalam GitHub</b><br>
+<img src="img/gitRemote.jpeg">
 
 ```
 git remote add origin https://github.com/vaniaskirana/vaniaskirana.git
 ```
+
 - <b>Melakukan Clonning pada Git</b>
 ```
-git clone HTTPS_repository kita : 
+    git clone HTTPS_repository kita : 
 
-git clone https://github.com/vaniaskirana/TPA-3-Fetch.git
+    git clone https://github.com/vaniaskirana/TPA-3-Fetch.git
 
-selesai
+```
+
+- <b>Melakukan Push pada Git</b><br>
+<img src="img/gitPush.jpeg">
+
+```
+    git push origin main/main
+
+    selesai
 ```
 
 ### **3. HTML** 
@@ -181,10 +217,10 @@ Contoh <b>Implementasi</b> Tag dan Semantic HTML :
 </html>
 ```
 
-- <b>Deployment</b> : Melakukan Deployment Pada Netlify.
-```
-a
-```
+- <b>Deployment</b> : Melakukan Deployment Pada Netlify.<br>
+<img src="img/deploy1.jpeg">
+<img src="img/deploy2.jpeg">
+<img src="img/deploy3.jpeg">
 
 ### **4. CSS**
 - <b>Peran CSS terhadap Web</b>, CSS berperan untuk mempercantik tampilan website. Dimana ia akan menyelimuti kerangka yang telah dibuat oleh HTML sebelumnya.
